@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer utilities {
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}
+
+/* --- Footer Agency Name Animation --- */
+@layer utilities {
+  .animated-name {
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .animated-name:hover {
+    color: #FF4B37; 
+    transform: translateY(-1px);
+  }
+  
+  .animated-name::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #FF4B37; 
+    transition: width 0.3s ease;
+  }
+  
+  .animated-name:hover::after {
+    width: 100%;
+  }
+}

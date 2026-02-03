@@ -1,12 +1,15 @@
-// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+module.exports = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Montserrat"],
-        secondary: ["Roboto"],
+        primary: ["var(--font-montserrat)", "system-ui", "sans-serif"],
+        secondary: ["var(--font-roboto)", "system-ui", "sans-serif"],
       },
       container: {
         center: true,
@@ -25,4 +28,4 @@ export default {
     },
   },
   plugins: [],
-};
+}
