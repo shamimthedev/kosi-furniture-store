@@ -1,4 +1,4 @@
 var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/_app.js")
-R.c("server/chunks/ssr/[root-of-the-server]__7afcbb40._.js")
-R.m("[project]/node_modules/.pnpm/next@15.5.8_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/app.js [ssr] (ecmascript)")
-module.exports=R.m("[project]/node_modules/.pnpm/next@15.5.8_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/app.js [ssr] (ecmascript)").exports
+R.c("server/chunks/ssr/[root-of-the-server]__703f15e5._.js")
+R.m(37987)
+module.exports=R.m(37987).exports

@@ -220,7 +220,7 @@ export default function ProductDetailsPage({ params }: { params: Promise<{ id: s
                 of modern aesthetics and practical design.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Whether you're looking to upgrade your daily essentials or searching for the perfect
+                Whether you&apos;re looking to upgrade your daily essentials or searching for the perfect
                 gift, this product delivers exceptional quality and lasting value.
               </p>
               <h3 className="text-xl font-bold text-primary mb-3">Key Features</h3>

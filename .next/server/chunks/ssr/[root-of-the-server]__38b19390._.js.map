@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/user/projects/dev/furniture/kosi-furniture-store/src/app/page.tsx"],"sourcesContent":["import Hero from \"@/components/sections/Hero\"\nimport TopPicks from \"@/components/sections/TopPicks\"\nimport NewArrival from \"@/components/sections/NewArrival\"\nimport Feature from \"@/components/sections/Feature\"\nimport ImageGallery from \"@/components/sections/ImageGallery\"\n\nexport default function Home() {\n  return (\n    <>\n      <main>\n        <Hero />\n        <TopPicks />\n        <NewArrival />\n        <Feature />\n        <ImageGallery />\n      </main>\n    </>\n  )\n}"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMe,SAAS;IACtB,qBACE;kBACE,cAAA,6WAAC;;8BACC,6WAAC;;;;;8BACD,6WAAC;;;;;8BACD,6WAAC;;;;;8BACD,6WAAC;;;;;8BACD,6WAAC;;;;;;;;;;;;AAIT","debugId":null}}]
-}

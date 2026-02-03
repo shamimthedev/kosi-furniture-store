@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Calendar, User, Clock, Tag, ArrowLeft, Facebook, Twitter, Linkedin, Share2 } from 'lucide-react'
+import { Calendar, Clock, Tag, ArrowLeft, Facebook, Twitter, Linkedin, Share2 } from 'lucide-react'
 
 const blogPosts = [
   {
@@ -214,7 +214,7 @@ export default function BlogDetailsPage({ params }: { params: { id: string } }) 
                         <span className="text-sm text-gray-500">2 days ago</span>
                       </div>
                       <p className="text-gray-600 leading-relaxed">
-                        Great article! These tips are really helpful. I've been trying to declutter
+                        Great article! These tips are really helpful. I&apos;ve been trying to declutter
                         my space and this gives me a clear direction. Thank you for sharing!
                       </p>
                     </div>

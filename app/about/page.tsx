@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Award, Users, Heart, TrendingUp, CheckCircle2, Target } from 'lucide-react'
+import Link from 'next/link'
 
 const stats = [
   { label: 'Happy Customers', value: '10,000+', icon: Users },
@@ -58,7 +59,7 @@ export default function AboutPage() {
               About Kosi
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              We believe everyone deserves a beautiful home. Since 2009, we've been crafting 
+              We believe everyone deserves a beautiful home. Since 2009, we&apos;ve been crafting 
               premium furniture that combines timeless design with modern comfort.
             </p>
           </div>
@@ -95,13 +96,13 @@ export default function AboutPage() {
               </p>
               <p>
                 What started in a modest showroom has grown into a beloved brand trusted 
-                by thousands of customers nationwide. We've stayed true to our founding 
+                by thousands of customers nationwide. We&apos;ve stayed true to our founding 
                 principles while expanding our collection to include everything from 
                 classic pieces to cutting-edge contemporary designs.
               </p>
               <p>
-                Today, we're proud to work with talented artisans and sustainable 
-                manufacturers from around the world, bringing you furniture that's not 
+                Today, we&apos;re proud to work with talented artisans and sustainable 
+                manufacturers from around the world, bringing you furniture that&apos;s not 
                 just beautiful, but built to last for generations.
               </p>
             </div>
@@ -174,12 +175,12 @@ export default function AboutPage() {
           <p className="text-xl mb-8 opacity-90">
             Explore our collection and discover the perfect pieces for your home
           </p>
-          <a
+          <Link
             href="/shop"
             className="inline-block bg-white text-primary px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors"
           >
             Shop Now
-          </a>
+          </Link>
         </div>
       </div>
     </div>
